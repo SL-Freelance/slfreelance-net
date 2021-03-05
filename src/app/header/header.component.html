@@ -1,0 +1,11 @@
+<div id="header">
+    <div class="header--logo"></div>
+    <div class="header--content">SL Freelance</div>
+    <div class="header--menu" [class.header--menu--active]="showNav">
+      <i class="material-icons" (click)="onToggleNav()">{{icon}}</i>
+    </div>
+    </div>
+  <app-nav (toggle)="onToggleNav()" @openClose *ngIf="showNav">
+
+  </app-nav>
+  

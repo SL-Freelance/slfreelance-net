@@ -1,0 +1,23 @@
+@import "~src/sass/globals";
+
+nav {
+    position: absolute;
+    right: 0px;
+    width: max-content;
+    min-width: 300px;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        background-color: $foreground;
+        color: $background-alternate;
+        text-align: center;
+        padding: 5px;
+
+
+    }
+}
