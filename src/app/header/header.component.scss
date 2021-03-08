@@ -20,9 +20,11 @@
 
 
 &--content {
-    width: calc(100% - 100px);
+    width: calc(100% - 150px);
     display: flex;
     justify-items: center;
+    text-decoration: none;
+    color: $foreground;
 }
 
 &--menu {
